@@ -2,7 +2,7 @@ nav {
     background-color: black;
     margin: 0;
     padding: 0;
-
+    
 }
 
 .item1 {
@@ -44,7 +44,7 @@ nav {
     border-radius: 2px;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .searchbar {
