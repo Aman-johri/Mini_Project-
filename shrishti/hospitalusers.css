@@ -138,3 +138,39 @@ nav {
     border-radius: 20px;
     
   }
+
+  /*footer*/
+.f1 {
+  background-color: black;
+}
+
+.infomationtag {
+  text-align: center;
+  color: darkgrey;
+  font-size: 20px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.ourservicesheader {
+  text-align: left;
+  color: darkgray;
+  font-size: 18px;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.ourservicesparagraph {
+  font-size: 15px;
+  color: darkgray;
+  margin-top: 10px;
+}
+
+.copyrightline {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  color: whitesmoke;
+  margin-top: 20px;
+}
