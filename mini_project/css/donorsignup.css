@@ -1,3 +1,6 @@
+body{
+    background-image: linear-gradient(to right,purple, rgb(124, 124, 189));
+}
 nav {
     background-color: black;
     margin: 0;
@@ -156,7 +159,6 @@ nav {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
 }
 
 .signbtn:hover {
@@ -164,11 +166,71 @@ nav {
     color: white;
 }
 
-.fa-phone {
-    color: white;
-    margin-top: 0.8%;
-    margin-right: 2%;
+
+/* /login form/ */
+.maincontainer{
+    text-align: center;
+    /* background-color:black; */
+
+
+    height: auto;
+    width: auto;
 }
+.contactform {
+margin-top: 5% ;
+margin-bottom: 5%;
+}
+.contact-form {
+    margin-left: 0;
+}
+
+.signupline{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.signuptag{
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+    color: white;
+    margin-bottom: 50px;
+}
+.form-control {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid purple;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+input {
+    height: 45px;
+}
+.submit {
+    background-color: darkred;
+    border-color: transparent;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 200px;
+    border-radius: 50%;
+}
+.submit:hover {
+    background-color: aquamarine;
+    color: darkblue;
+    cursor: pointer;
+}
+
+/* /footer/ */
 .f1 {
     background-color: black;
 }
@@ -203,165 +265,4 @@ nav {
     color: whitesmoke;
     margin-top: 20px;
     margin-bottom: 0px;
-}
-
-body {
-    background-color: gainsboro;
-    margin: 0;
-    padding: 0;
-    
-}
-
-
-.moto {
-    margin-bottom: 1%;
-    
-    background-color: black;
-    
-}
-
-.imgcoloum {
-    background-color: ghostwhite;
-    border-radius: 10px;
-    margin: 5px;
-}
-
-.myimg1 {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: auto;
-}
-
-
-.dintro1{
-    margin-top: 20px;
-    color: white;
-    font-size: 20px;
-    font-family: serif;
-    margin-left: 20px;
-}
-.dintro2{
-    color: white;
-    margin-left: 20px;
-    margin-top: 0px;
-    margin-right: 25px;
-}
-.dname{
-    font-size: 100px;
-}
-.skill{
-    color: black;
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: underline;
-    font-size: 50px;
-    font-family: serif;
-}
-.front{
-    background-color: black;
-    width: 300px;
-    height:300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    margin-top: 30px;
-<<<<<<< HEAD
-=======
-    border: 2px dotted white;
->>>>>>> 50c37106991de8414daaa128939f43c6c7ef6871
-    
-}
-.back{
-     background-color: black;
-    width: 300px;
-    height:300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    margin-top: 30px;
-   
-}
-.other{
-    background-color: black;
-    width: 300px;
-    height:300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    margin-top: 30px;
-    
-}
-.fronttext{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    text-decoration: underline;
-}
-.backtext{
-   color: white;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    text-decoration: underline;
-}
-.othertext{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    text-decoration: underline;
-}
-.slist{
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: cursive;
-}
-.slist:hover{
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: serif;
-    text-decoration: underline;
-}
-.aboutbtn{
-    width: 100px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    background-color: darkgreen;
-    color: white;
-}
-.aboutbtn:hover{
-    width: 100px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    background-color: darkred;
-    color: white;
-    border-radius: 50%;
-}
-
-.c2{
-    background-color: black;
-    border-radius: 50%;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    border: 2px dotted white;
-}
-
-.thankyoutag{
-    color: white;
-    text-align: center;
-    font-family: serif;
 }
