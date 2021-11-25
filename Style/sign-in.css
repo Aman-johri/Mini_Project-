@@ -167,15 +167,14 @@ nav {
 /*login form*/
 .maincontainer{
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 100, 0.6), rgba(0, 0, 100, 0.6)), url(bg/log_in.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
     height: auto;
     width: auto;
 }
 .contactform {
 margin-top: 5% ;
-margin-bottom: 50%;
+margin-bottom: 5%;
 }
 .contact-form {
     margin-left: 0;
@@ -218,7 +217,6 @@ input {
     letter-spacing: 2px;
     height: 50px;
     width: 200px;
-    border-radius: 50%;
 }
 .submit:hover {
     background-color: blue;

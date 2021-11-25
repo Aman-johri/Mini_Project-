@@ -170,21 +170,38 @@ nav {
 }
 
 /*-------------mid portion--------------------*/
-div.midportion {
-    background:  url(../Image/1.jpg);
-    background-size: 1350px 1350px;
+    div.midportion {
+    background: url(../Image/redb.jpg); 
+    background-size: 900px 900px; 
     background-size: cover;
     background-repeat: no-repeat;
-
-}
+}  
 
 .landingbtn {
-    margin-top: -8%;
     text-align: center;
+}
+/* .content 
+{
+   width: 100%;
+  
+}
+.content h3
+{
+    color: red;
+    margin-left: 25%;
+    padding-top: 5%;
+    font-weight: bold;
+    
+} */
+
+.carousel-item {
+    /* margin-top: 5px; */
+    height: 400px;
 }
 
 .btncs {
-    margin-top: 20%;
+    margin-bottom: 2%;
+    margin-top: 2%;
     background-color: rgb(48, 25, 52, 0.8);
     border: 1px solid purple;
     color: white;
@@ -197,8 +214,6 @@ div.midportion {
 }
 
 .btncs1 {
-    margin-top: 5%;
-    margin-bottom: 45%;
     background-color: rgb(48, 25, 52, 0.8);
     border: 1px solid purple;
     color: white;
@@ -257,4 +272,8 @@ div.midportion {
     color: whitesmoke;
     margin-top: 20px;
     margin-bottom: 0px;
+}
+.quotation
+{
+    margin-bottom: 100px;
 }

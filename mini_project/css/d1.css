@@ -283,7 +283,7 @@ body {
     font-family: serif;
 }
 .front{
-    background-color: black;
+   
     width: 300px;
     height:300px;
     margin-left: 10px;
@@ -291,10 +291,10 @@ body {
     margin-bottom: 30px;
     
     margin-top: 30px;
-    border: 2px dotted white;
+    
 }
 .back{
-     background-color: black;
+    
     width: 300px;
     height:300px;
     margin-left: 20px;
@@ -302,10 +302,10 @@ body {
     margin-bottom: 30px;
     
     margin-top: 30px;
-    border: 2px dotted white;
+    
 }
 .last{
-    background-color: black;
+    
     width: 300px;
     height:300px;
     margin-left: 10px;
@@ -313,18 +313,16 @@ body {
     margin-bottom: 30px;
     
     margin-top: 30px;
-    border: 2px dotted white;
+   
 }
 .other{
-    background-color: black;
+  
     width: 300px;
     height:300px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
-    
     margin-top: 30px;
-    border: 2px dotted white;
 }
 
 .slist{
