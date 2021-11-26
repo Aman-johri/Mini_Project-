@@ -270,10 +270,8 @@ body {
     margin-bottom: 30px;
     border-radius: 20px;
     margin-top: 30px;
-
     border: 2px dotted white;
-
-    
+    border: 2px dotted white;
 }
 .back{
      background-color: black;
