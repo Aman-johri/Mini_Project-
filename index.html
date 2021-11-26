@@ -14,6 +14,11 @@
      <!--font awesome cdn-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="./Style/Homepage.css">
+     <link rel="stylesheet" href="./mini_project/css/home(1).css">
+     <link rel="stylesheet" href="./mini_project/css/chatbot.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
 
@@ -31,9 +36,7 @@
                 <li class="nav-item item1 active"><a href="./mini_project/developer.html">
                         <button class="contactbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Developer</b></button></a>
                 </li>
-                <li class="nav-item item2 active">
-                    <a href="./mini_project/chatbot.html"> <button class="loginbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Chatbot</b></button></a>
-                </li>
+                
                 <li class="nav-item item3 active"><a href="./Pages/signin.html">
                     <button class="signbtn btn-outline-success my-2 my-sm-0" type="submit"><b>Services</b></button></a>
                 </li>
@@ -69,12 +72,58 @@
     </div>
   </div>
 
+  <!-- <--chatbot--> 
+  <div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">Chat with us!
+        <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+    <div class="content">
+        <div class="full-chat-block">
+            <div class="outer-container">
+                <div class="chat-container">
+                    <div id="chatbox">
+                        <h5 id="chat-timestamp"></h5>
+                        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                    </div>
+
+                    <div class="chat-bar-input-block">
+                        <div id="userInput">
+                            <input id="textInput" class="input-box" type="text" name="msg"
+                                placeholder="Tap 'Enter' to send a message">
+                            <p></p>
+                        </div>
+
+                        <div class="chat-bar-icons">
+                            <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                onclick="heartButton()"></i>
+                            <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                onclick="sendButton()"></i>
+                        </div>
+                    </div>
+
+                    <div id="chat-bar-bottom">
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<script src="jquery-3.6.0.js"></script>
+<script src="./mini_project/script/chat.js"></script>
+<script src="./mini_project/script/responses.js"></script>
+
   <!--User section-->
  
      <div class="fluid-container midportion">
         <div class="fluid-container landingbtn">
             <marquee direction="left" scrolldelay=0 ><p style="font-size: 25px;text-align: center;font-style: italic; color: white;"><u>A drop of blood can save a life! Don’t waste it and donate blood.</u></p></marquee>
-            <a href="#"><button type="button" class="btncs btn-lg"><b>Search your Blood Bank</b></button></a>
+            <a href="./mini_project_ritik/ritik.html"><button type="button" class="btncs btn-lg"><b>Search your Blood Bank</b></button></a>
             <a href="https://www.covid19india.org/"><button type="button" class="btncs1 btn-lg"><b>Covid-19 Updates</b></button></a>
         </div>
     </div>
