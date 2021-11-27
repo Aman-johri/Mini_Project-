@@ -20,7 +20,7 @@
         margin-top: -50px;
         overflow: hidden;
         background-color: #333;
-        /* position: fixed;  */
+        /* position:fixed;  */
         top: 0; 
         width: 100%;
     }
@@ -75,7 +75,7 @@
                     <textarea rows="10" cols="100" class="form-control" id="message" name="message" required  maxlength="999" style="resize:none;"></textarea>
                 </div>
             </div>
-            <button type="submit" name="send"  class="btn btn-primary">Send Message</button>
+            <button type="submit" name="send"  class="btn btn-primary" id="submit">Send Message</button>
         </form>
     </div>
     <div class="col-lg-4 mb-4">
@@ -102,6 +102,9 @@
 </div>
 
 </div>
+<script src="../Script/contact.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+<script src="../mini_project/script/fireconfig.js"></script>
 </body>
 
 </html>
