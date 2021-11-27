@@ -1,3 +1,4 @@
+var nameV, emailV, phoneV, mesaageV;
 function readFom() {
     nameV = document.getElementById("name").value;
     emailV = document.getElementById("email").value;
@@ -6,18 +7,19 @@ function readFom() {
     console.log(emailV, nameV, phoneV,messageV);
   }
   
-  function insert() {
+  document.getElementById("submit").onclick = function (){
     readFom();
     
     firebase
       .database()
-      .ref("bloodbankdetails/" + nameV)
+      .ref("contact/" + nameV)
       .set({
         name: nameV,
         email: emailV ,
         phone:phoneV,
         message:messageV,
       });
+      alert("Your message has been sent.");
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("phone").value = "";
