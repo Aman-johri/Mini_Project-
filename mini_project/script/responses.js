@@ -90,7 +90,7 @@ function getBotResponse(input) {
         return "Click on login/signup button on home page.Then choose blood donor signup to signup and to add details regarding you(like blood group). You need to signup once then you will be a blood donor.<hr>"
     }
     else if(input=="" || input=="29"){
-        return "From the home page Click on 'Search Your hospital' to redirect to 'District List', after that you have to click on the district/location where you want to search blood donors then you can see the blood donors list in the blood donor box. Click on any name in the list if you want to fetch details regarding that person.<hr>"
+        return "From the home page Click on 'Search Your blood' to redirect to 'District List', after that you have to click on the district/location where you want to search blood donors then you can see the blood donors list in the blood donor box. Click on any name in the list if you want to fetch details regarding that person.<hr>"
     }
     
 
