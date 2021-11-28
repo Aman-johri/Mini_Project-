@@ -92,8 +92,7 @@ function getBotResponse(input) {
     else if(input=="" || input=="29"){
         return "From the home page Click on 'Search Your Blood Bank' to redirect to 'District List', after that you have to click on the district/location where you want to search blood donors then you can see the blood donors list in the blood donor box. Click on any name in the list if you want to fetch details regarding that person. <hr>"
     }
-    else if(input=="goodbye"){
-        return "Thank you and talk to you later!";
+    
     
 
 
