@@ -58,7 +58,7 @@ function getBotResponse(input) {
     }
     else if(input=="" || input=="20"){
         
-        return " From the home page Click on 'Search Your Hospital' to redirect to 'District List', after that you have to click on the district where you want to search hospitals to fetch the list of hospitals then click on any desired hospital from hospital box to know its details. <hr>"
+        return " From the home page Click on 'Search Your BloodBank' to redirect to 'District List', after that you have to click on the district where you want to search hospitals to fetch the list of hospitals then click on any desired hospital from hospital box to know its details. <hr>"
         
     }
 
@@ -66,14 +66,14 @@ function getBotResponse(input) {
         return "Click on 'Covid-19 updates' on home page to view the covid-19 updates.]"
     }
     else if(input=="" || input=="22"){
-        return "From the home page Click on 'Search Your Hospital' to redirect to 'District List', after that you have to click on the district where your required hospital is situated then click on the particular hospital from the hospital box to fetch the contacts details regarding that hospital."
+        return "From the home page Click on 'Search Your BloodBank' to redirect to 'District List', after that you have to click on the district where your required hospital is situated then click on the particular hospital from the hospital box to fetch the contacts details regarding that hospital."
         
     }
     else if(input=="" || input=="23"){
-        return " From the home page Click on'Search Your Hospital' to redirect to 'District List', after that you have to click on the district where your required hospital is situated then click on the particular hospital from hospital box to know the availablity .<hr>"
+        return " From the home page Click on'Search Your BloodBank' to redirect to 'District List', after that you have to click on the district where your required hospital is situated then click on the particular hospital from hospital box to know the availablity .<hr>"
     }
     else if(input=="" || input=="24"){
-        return "From the home page Click on 'Search Your Hospital' to redirect to 'District List', after that you have to click on the district where your required hospital is situated then click on the particular hospital from hospital box to redirect to detail page. In detail page click on the appointment button to make appointment.<hr>"
+        return "From the home page Click on 'Search Your BloodBank' to redirect to 'District List', after that you have to click on the district where your required hospital is situated then click on the particular hospital from hospital box to redirect to detail page. In detail page click on the appointment button to make appointment.<hr>"
         
     }
     else if(input=="" || input=="25"){
@@ -83,14 +83,14 @@ function getBotResponse(input) {
         return " No! you dont need to make an account to make appointments.<hr> "
     }
     else if(input=="" || input=="27"){
-        return "From the home page Click on 'Search Your Hospital' to redirect to 'District List', after that you have to click on the district/location where you want to search blood banks then click on the particular blood bank from Blood Bank box to redirect to detail page to know the availability of the required blood group.<hr>"
+        return "From the home page Click on 'Search Your BloodBank' to redirect to 'District List', after that you have to click on the district/location where you want to search blood banks then click on the particular blood bank from Blood Bank box to redirect to detail page to know the availability of the required blood group.<hr>"
         
     }
     else if(input=="" || input=="28"){
         return "Click on login/signup button on home page.Then choose blood donor signup to signup and to add details regarding you(like blood group). You need to signup once then you will be a blood donor.<hr>"
     }
     else if(input=="" || input=="29"){
-        return "From the home page Click on 'Search Your blood' to redirect to 'District List', after that you have to click on the district/location where you want to search blood donors then you can see the blood donors list in the blood donor box. Click on any name in the list if you want to fetch details regarding that person.<hr>"
+        return "From the home page Click on 'Search Your Blood Bank' to redirect to 'District List', after that you have to click on the district/location where you want to search blood donors then you can see the blood donors list in the blood donor box. Click on any name in the list if you want to fetch details regarding that person.<hr>"
     }
     
 
