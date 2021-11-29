@@ -1,3 +1,4 @@
+var emailV,passwordV,nameV,typeV,districtV,addressV,emergencyV,BedsV,icuV,ventilatorV,oxygenV,ambulanceV,maleV,femaleV,mobilenumberV
 function readFom() {
   emailV = document.getElementById("email").value;
   passwordV = document.getElementById("password").value;
@@ -14,7 +15,7 @@ function readFom() {
   maleV = document.getElementById("male").value;
   femaleV = document.getElementById("female").value;
   mobilenumberV = document.getElementById("number").value;
-  console.log( email,passwordV, nameV, typeV, addressV,districtV,BedsV,icuV,ventilatorV,oxygenV,ambulanceV,maleV,femaleV,mobilenumberV);
+  console.log( emailV,passwordV, nameV, typeV, addressV,districtV,BedsV,icuV,ventilatorV,oxygenV,ambulanceV,maleV,femaleV,mobilenumberV);
 }
 
 function insert() {

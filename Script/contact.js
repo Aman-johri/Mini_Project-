@@ -1,4 +1,4 @@
-var nameV, emailV, phoneV, mesaageV;
+var nameV, emailV, phoneV, messageV;
 function readFom() {
     nameV = document.getElementById("name").value;
     emailV = document.getElementById("email").value;
