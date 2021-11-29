@@ -57,6 +57,19 @@ function insert() {
 //     alert(errorMessage);
 //   });
 // }
+// function signup(){
+//   alert("Successfully Registered");
+//   var email = $("#email").val();
+//   var password = $("#password").val();
+//   console.log(email,password)
+//   firebase.auth().createUserWithEmailAndPassword(email, password).then(function (user) {
+//   window.location.href = "Sign-in.html";
+//   }).catch(function (error) {
+//     var errorCode = error.code;
+//     var errorMessage = error.message;
+//     alert(errorMessage);
+//   });
+// }
 function signup(){
   alert("Successfully Registered");
   var email = $("#email").val();
