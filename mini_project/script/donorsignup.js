@@ -76,7 +76,7 @@ function signup(){
   var password = $("#password").val();
   console.log(email,password)
   firebase.auth().createUserWithEmailAndPassword(email, password).then(function (user) {
-  window.location.href = "Sign-in.html";
+  window.location.href = "donorlogin.html";
   }).catch(function (error) {
     var errorCode = error.code;
     var errorMessage = error.message;
