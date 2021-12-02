@@ -53,9 +53,9 @@
                             
                                 <input name="email" id="email" type="email" class="form-control" placeholder="Email" autocomplete="off" required />   <br>
                                 <input name="make_password" id="password" type="password" class="form-control" placeholder="Make Password" required/><br>
-                                <input name="donor_name" id="name" type="text" class="form-control" placeholder="Donor Name" autocomplete="off" required><br>
-                                <input name="donor_age" id="age" type="text" class="form-control" placeholder="Donor Age" autocomplete="off" required><br>
-                                <input name="address"  id="address1" type="text" class="form-control" placeholder="Donor Address" autocomplete="off" required><br>
+                                <input name="donor_name" id="name" type="text" class="form-control" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"placeholder="Donor Name" autocomplete="off" required><br>
+                                <input name="donor_age" id="age" type="text" class="form-control" placeholder="Donor Age" onkeypress="javascript:return isNumber(event)"autocomplete="off" required><br>
+                                <input name="address"  id="address1" type="text" class="form-control" placeholder="Donor Address"  onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" autocomplete="off" required><br>
                                 
                                 
                                     
@@ -140,7 +140,7 @@
                                     
                                     
                                 </select><br>
-                                <input name="donor_phone_no" type="text" id="phone" class="form-control" placeholder="Donor Phone Number" autocomplete="off" required><br>
+                                <input name="donor_phone_no" type="text" id="phone" onkeypress="javascript:return isNumber(event)" class="form-control" placeholder="Donor Phone Number" autocomplete="off" required><br>
                                 <input name="donor_disease" type="text" id="disease" class="form-control" placeholder="Any Disease" autocomplete="off" required><br>
                                 <select name="blood_grp" id="bloodg" class="form-control">
                                     <option>Donor Blood Group</option>

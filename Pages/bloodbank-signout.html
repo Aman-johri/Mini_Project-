@@ -52,8 +52,8 @@
                        <div class="contact-form">
                                 <input type="email" name="Email" id="email"  class="form-control" placeholder="Email" autocomplete="off" required /><br />
                                 <input type="password" name="make_password"   id="password" class="form-control" placeholder="Make Password" required /><br />
-                                <input type="text" name="b_b_name" id="name" class="form-control" placeholder="Blood Bank Name" autocomplete="off" required /><br />
-                                <input type="text" name="b_b_address" id="address" class="form-control" placeholder="Blood Bank Address" autocomplete="off" required /><br />
+                                <input type="text" name="b_b_name" id="name" class="form-control" placeholder="Blood Bank Name" autocomplete="off" required onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" /><br />
+                                <input type="text" name="b_b_address" id="address" class="form-control" placeholder="Blood Bank Address" autocomplete="off" required onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"/><br />
                                 <select name="district" class="form-control" id="districtSel">
                                     <option value="" selected="selected">Select Blood Bank district</option>
                                     <option value="Agra" >Agra</option>
@@ -131,7 +131,7 @@
                                     <option value="Amethi">Amethi</option>
                                     <option value="Bagpat">Bagpat</option>
                                 </select><br>
-                                <input name="b_b_phone_no" id="mobilenumber" type="text" class="form-control" placeholder="Blood Bank Phone Number" autocomplete="off" required><br>
+                                <input name="b_b_phone_no" id="mobilenumber" onkeypress="javascript:return isNumber(event)" type="text" class="form-control" placeholder="Blood Bank Phone Number" autocomplete="off" required><br>
                                 <select name="a_positive" class="form-control" id="apositive">
                                     <option>A+ Blood Group</option>
                                     <option>Available</option>

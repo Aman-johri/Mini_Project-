@@ -51,7 +51,7 @@
                         <div class="contact-form">
                                 <input name="email" id="email" type="email" class="form-control" placeholder="Email" autocomplete="off" required /><br />
                                 <input name="make_password" id="password" type="password" class="form-control" placeholder="Make Password" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[*.!@$%^&(){}[]:;<>,.?/~_+-=|\]).{8,32}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /><br />
-                                <input name="hospital_name" id="name" type="text" class="form-control" placeholder="Hospital Name" autocomplete="off" required /><br />
+                                <input name="hospital_name" id="name" type="text" class="form-control" placeholder="Hospital Name" autocomplete="off" required onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" /><br />
                                 <select name="hospital_specializaton" class="form-control" id="type">
                                     <option>Select Type of Hospital</option>
                                     <option>Government Hospital</option>
@@ -59,7 +59,7 @@
                                     <option>Charitable Hospital</option>
                                     <option>clinic</option>
                                 </select><br>
-                                <input name="address" id="address" type="text" class="form-control" placeholder="Hospital Address" autocomplete="off" required /><br>
+                                <input name="address" id="address" type="text" class="form-control" placeholder="Hospital Address" autocomplete="off" required onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" /><br>
                                 <br/>
                                 <select name="district" class="form-control" id="districtSel">
                                     <option value="" selected="selected">Select Hospitaldistrict</option>
@@ -138,7 +138,7 @@
                                     <option value="Amethi">Amethi</option>
                                     <option value="Bagpat">Bagpat</option>
                                 </select><br>
-                                <input name="hospital_phone_no" id="number" type="text" class="form-control" placeholder="Hospital Phone Number" autocomplete="off" required><br>
+                                <input name="hospital_phone_no" id="number" type="text" onkeypress="javascript:return isNumber(event)" class="form-control" placeholder="Hospital Phone Number" autocomplete="off" required><br>
                                 <select name="emergency" class="form-control" id="emergency">
                                     <option>Emergency</option>
                                     <option>Open</option>
@@ -157,7 +157,7 @@
                                     <option>Available</option>
                                     <option>Not Available</option>
                                 </select><br>
-                                <input name="ambulance_phone_no" type="text" class="form-control" placeholder="Ambulance Number" autocomplete="off"><br>
+                                <input name="ambulance_phone_no" type="text" class="form-control"  placeholder="Ambulance Number" autocomplete="off"><br>
                                 <select name="male_doctor_availability" class="form-control" id="male">
                                     <option>Male Doctor Availability</option>
                                     <option>Available</option>

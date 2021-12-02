@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="icon" href="../Image/blood logo.png">
-     <!--bootstrap cdn-->
+     bootstrap cdn
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-     <!--font awesome cdn-->
+     <!--font awesome cdn
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="../Style/blooddonarsignup.css">
 </head>
 <body>
-      <!--nav bar-->
+      <!--nav bar
       <nav class="navbar navbar-toggleable-md navbar-light  bg-dark">
         <button class="navbar-toggler navbar-toggler-right dropdown" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,9 +53,9 @@
                             <form action="" method="post">
                                 <input name="email id="email" type="email" class="form-control" placeholder="Email" autocomplete="off" required><br>
                                 <input name="make_password" id="psw" type="password" class="form-control" placeholder="Make Password" required><br>
-                                <input name="donor_name" type="text" class="form-control" placeholder="Donor Name" autocomplete="off" required><br>
+                                <input name="donor_name" type="text" class="form-control" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" placeholder="Donor Name" autocomplete="off" required><br>
                                 <input name="donor_age" type="text" class="form-control" placeholder="Donor Age" autocomplete="off" required><br>
-                                <input name="address" type="text" class="form-control" placeholder="Donor Address" autocomplete="off" required><br>
+                                <input name="address" type="text" class="form-control" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" placeholder="Donor Address" autocomplete="off" required><br>
                                 <select name="country" class="form-control" id="countySel">
                                     <option value="" selected="selected">Select Country</option>
                                 </select>
@@ -66,7 +66,7 @@
                                 <select name="district" class="form-control" id="districtSel">
                                     <option value="" selected="selected">Select district</option>
                                 </select><br>
-                                <input name="donor_phone_no" type="text" class="form-control" placeholder="Donor Phone Number" autocomplete="off" required><br>
+                                <input name="donor_phone_no" type="text" onkeypress="javascript:return isNumber(event)" class="form-control" placeholder="Donor Phone Number" autocomplete="off" required><br>
                                 <input name="donor_disease" type="text" class="form-control" placeholder="Any Disease" autocomplete="off" required><br>
                                 <select name="blood_grp" class="form-control">
                                     <option>Donor Blood Group</option>
@@ -105,4 +105,4 @@
                 <pre class="copyrightline"><i class="fa fa-copyright" aria-hidden="true"></i>copyright to Rakt Sanagrahalay.com,all rights reserved.</pre>
             </div>
         </div>
-    </footer>
+    </footer> -->
